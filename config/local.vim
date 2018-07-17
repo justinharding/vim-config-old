@@ -1,6 +1,9 @@
 " turn arrow keys into windows resizers
 " let g:elite_mode=1
 
+" npm - have to set this because we are using nvm
+let g:node_host_prog = '/Users/justin/.nvm/versions/node/v10.6.0/bin/neovim-node-host'
+
 " ag silver searcher
 let g:ackprg = 'ag --nogroup --nocolor --column'
 map <Leader>a :Ack<Space>
