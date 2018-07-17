@@ -83,11 +83,21 @@ endif
 " }}}
 " Tabs and Indents {{{
 " ----------------
-set textwidth=80    " Text width maximum chars before wrapping
-set noexpandtab     " Don't expand tabs to spaces.
-set tabstop=2       " The number of spaces a tab is
-set softtabstop=2   " While performing editing operations
-set shiftwidth=2    " Number of spaces to use in auto(indent)
+" we can go futher than 80 on most modern monitors
+" set textwidth=80    " Text width maximum chars before wrapping
+set textwidth=120    " Text width maximum chars before wrapping
+
+" I don't like these settings
+" set noexpandtab     " Don't expand tabs to spaces.
+" set tabstop=2       " The number of spaces a tab is
+" set softtabstop=2   " While performing editing operations
+" set shiftwidth=2    " Number of spaces to use in auto(indent)
+
+set expandtab     " Don't expand tabs to spaces.
+set tabstop=4       " The number of spaces a tab is
+set softtabstop=4   " While performing editing operations
+set shiftwidth=4    " Number of spaces to use in auto(indent)
+
 set smarttab        " Tab insert blanks according to 'shiftwidth'
 set autoindent      " Use same indenting on new lines
 set smartindent     " Smart autoindenting on new lines
