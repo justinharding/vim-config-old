@@ -22,3 +22,6 @@ map <Leader>a :Ack<Space>
 
 " Keep cursor position across matches
 let g:asterisk#keeppos = 1
+
+" minimum height for command line area
+set cmdheight=1
