@@ -18,6 +18,8 @@ xnoremap <Space>  <Nop>
 nnoremap m        <Nop>
 xnoremap m        <Nop>
 
+let g:ack_apply_gmappings=0
+
 " }}}
 " Ensure cache directory "{{{
 if ! isdirectory(expand($VARPATH))

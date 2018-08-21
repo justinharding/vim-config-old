@@ -145,6 +145,8 @@ if dein#tap('vim-bookmarks')
 	nmap mp <Plug>BookmarkPrev
 	nmap mm <Plug>BookmarkToggle
 	nmap mi <Plug>BookmarkAnnotate
+	nmap mc <Plug>BookmarkClear
+	nmap mx <Plug>BookmarkClearAll
 endif
 
 if dein#tap('committia.vim')
@@ -208,27 +210,6 @@ if dein#tap('vim-gitgutter')
 	nmap <Leader>hs <Plug>GitGutterStageHunk
 	nmap <Leader>hr <Plug>GitGutterUndoHunk
 	nmap <Leader>hp <Plug>GitGutterPreviewHunk
-endif
-
-if dein#tap('vim-go')
-	autocmd MyAutoCmd FileType go
-		\   nmap <C-]> <Plug>(go-def)
-		\ | nmap <Leader>god  <Plug>(go-describe)
-		\ | nmap <Leader>goc  <Plug>(go-callees)
-		\ | nmap <Leader>goC  <Plug>(go-callers)
-		\ | nmap <Leader>goi  <Plug>(go-info)
-		\ | nmap <Leader>gom  <Plug>(go-implements)
-		\ | nmap <Leader>gos  <Plug>(go-callstack)
-		\ | nmap <Leader>goe  <Plug>(go-referrers)
-		\ | nmap <Leader>gor  <Plug>(go-run)
-		\ | nmap <Leader>gov  <Plug>(go-vet)
-endif
-
-if dein#tap('phpcomplete-extended')
-	autocmd MyAutoCmd FileType php
-		\   nmap <silent> <unique> K <Plug>(phpcomplete-extended-doc)
-		\ | nmap <silent> <unique> <C-]> <Plug>(phpcomplete-extended-goto)
-		\ | nmap <silent> <unique> <Leader>a <Plug>(phpcomplete-extended-add-use)
 endif
 
 if dein#tap('vimagit')

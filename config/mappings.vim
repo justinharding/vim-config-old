@@ -88,7 +88,7 @@ noremap <expr> <C-y> (line("w0") <= 1         ? "k" : "3\<C-y>")
 
 " Window control
 nnoremap <C-q> <C-w>
-nnoremap <C-x> <C-w>x
+" nnoremap <C-x> <C-w>x
 nnoremap <silent><C-w>z :vert resize<CR>:resize<CR>:normal! ze<CR>
 
 " Select blocks after indenting
@@ -112,10 +112,10 @@ cnoremap <C-b> <Left>
 cnoremap <C-d> <C-w>
 
 " Switch history search pairs, matching my bash shell
-cnoremap <C-p>  <Up>
-cnoremap <C-n>  <Down>
-cnoremap <Up>   <C-p>
-cnoremap <Down> <C-n>
+" cnoremap <C-p>  <Up>
+" cnoremap <C-n>  <Down>
+" cnoremap <Up>   <C-p>
+" cnoremap <Down> <C-n>
 
 " }}}
 " File operations {{{
