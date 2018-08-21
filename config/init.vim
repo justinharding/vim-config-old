@@ -18,7 +18,8 @@ xnoremap <Space>  <Nop>
 nnoremap m        <Nop>
 xnoremap m        <Nop>
 
-let g:ack_apply_gmappings=0
+" let g:ack_apply_qmappings=0
+set switchbuf=useopen
 
 " }}}
 " Ensure cache directory "{{{
