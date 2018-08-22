@@ -18,6 +18,11 @@ xnoremap <Space>  <Nop>
 nnoremap m        <Nop>
 xnoremap m        <Nop>
 
+" jump list
+nnoremap <C-p> <C-o>
+nnoremap <C-n> <C-i>
+
+
 " let g:ack_apply_qmappings=0
 set switchbuf=useopen
 
