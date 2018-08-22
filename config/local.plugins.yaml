@@ -1,2 +1,3 @@
 - repo: mileszs/ack.vim
 - repo: JamshedVesuna/vim-markdown-preview
+- repo: ledger/vim-ledger
